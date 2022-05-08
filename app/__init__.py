@@ -1,6 +1,15 @@
 from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
 
-# Initializing application
-app = Flask(__name__)
 
-from app import views
+
+db = SQLAlchemy()
+
+def create_app(config_name):
+    app = Flask(__name__)
+
+    # ....
+
+    # Initializing flask extensions
+
+    db.init_app(app)
