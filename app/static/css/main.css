@@ -3,7 +3,7 @@ body {
     height: 100%;
     width: 100%;
     padding: 0;
-    /*background: #230e4a;*/
+
     z-index: 1;
     background-color: yellow;
 }
@@ -14,4 +14,7 @@ body {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     z-index: 1;
+}
+*{
+    background-color: yellow; 
 }
