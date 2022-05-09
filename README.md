@@ -37,7 +37,7 @@ To get the code..
 
 1. Cloning the repository:
   ```bash
-  https://github.com/Owiti-Charles/pitch-world.git
+  
   ```
 2. Move to the folder and install requirements
   ```bash
@@ -50,11 +50,11 @@ To get the code..
   ```
 4. Running the application
   ```bash
-  python3.6 manage.py server
+  python3.8 manage.py server
   ```
 5. Testing the application
   ```bash
-  python3.6 manage.py test
+  python3.8manage.py test
   ```
 Open the application on your browser `127.0.0.1:5000`.
 
@@ -69,4 +69,4 @@ Open the application on your browser `127.0.0.1:5000`.
 
 ## License
 * *MIT License:*
-* Copyright (c) 2019 **Diana Kariuki**
+* Copyright (c) 2022 **Diana Kariuki**
